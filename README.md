@@ -38,3 +38,7 @@ kaggle competitions download santander-product-recommendation
 ```sh
 jupyter notebook
 ```
+
+## References
+https://blogs.msdn.microsoft.com/pythonengineering/2018/11/08/data-science-with-python-in-visual-studio-code/
+https://code.visualstudio.com/docs/python/editing#_jupyter-code-cells
