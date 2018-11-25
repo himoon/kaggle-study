@@ -1,4 +1,4 @@
-# Kaggle Study 2018 - Chapter 02
+# Kaggle Study 2018
 
 ## Prerequisites
 
@@ -13,15 +13,15 @@ virtualenv --version # if failed, run "pip install virtualenv"
 
 ```sh
 # run terminal, then execute following commands.
-git clone https://github.com/himoon/kaggle-ch02.git
-cd kaggle-ch02
+git clone https://github.com/himoon/kaggle-study.git
+cd kaggle-study
 virtualenv env
 source env/bin/activate # macOS
 .\env\Scripts\activate # Windows
 
-pip install numpy scipy matplotlib pandas ipython jupyter kaggle # for kaggle
+pip install numpy scipy matplotlib pandas ipython jupyter # default
 pip install pylint autopep8 # for vscode
-pip install seaborn # for this chapter
+pip install kaggle seaborn # for this book
 ```
 
 ## Download the data
