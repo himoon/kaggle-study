@@ -1,4 +1,4 @@
-# Kaggle study
+# Kaggle Study 2018 - Chapter 02
 
 ## Prerequisites
 
@@ -6,15 +6,6 @@
 # run terminal, then verify whether following commands work.
 python --version
 pip --version
-
-# install pip modules for vscode
-pip install pylint autopep8
-
-# install pip modules for kaggle
-pip install numpy scipy matplotlib pandas ipython jupyter
-
-# install virtualenv module
-pip install virtualenv
 virtualenv --version # if failed, run "pip install virtualenv"
 ```
 
@@ -22,14 +13,20 @@ virtualenv --version # if failed, run "pip install virtualenv"
 
 ```sh
 # run terminal, then execute following commands.
-git clone https://github.com/himoon/kaggle-study.git
-cd kaggle-study
+git clone https://github.com/himoon/kaggle-ch02.git
+cd kaggle-ch02
 virtualenv env
+source env/bin/activate # macOS
+.\env\Scripts\activate # Windows
+
+pip install pylint autopep8 # install pip modules for vscode
+pip install numpy scipy matplotlib pandas ipython jupyter kaggle # install pip modules for kaggle
 ```
 
-## get data
+## Download the data
 
 ```sh
+# download the data, then copy the date into ./kaggle_santander_product_recommendation/input
 kaggle competitions download santander-product-recommendation
 ```
 
@@ -40,5 +37,6 @@ jupyter notebook
 ```
 
 ## References
+
 https://blogs.msdn.microsoft.com/pythonengineering/2018/11/08/data-science-with-python-in-visual-studio-code/
 https://code.visualstudio.com/docs/python/editing#_jupyter-code-cells
