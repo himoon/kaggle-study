@@ -19,8 +19,9 @@ virtualenv env
 source env/bin/activate # macOS
 .\env\Scripts\activate # Windows
 
-pip install pylint autopep8 # install pip modules for vscode
-pip install numpy scipy matplotlib pandas ipython jupyter kaggle # install pip modules for kaggle
+pip install numpy scipy matplotlib pandas ipython jupyter kaggle # for kaggle
+pip install pylint autopep8 # for vscode
+pip install seaborn # for this chapter
 ```
 
 ## Download the data
