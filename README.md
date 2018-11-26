@@ -21,13 +21,13 @@ source env/bin/activate # macOS
 
 pip install numpy scipy matplotlib pandas ipython jupyter # default
 pip install pylint autopep8 # for vscode
-pip install kaggle seaborn # for this book
+pip install kaggle seaborn xgboost # for this book
 ```
 
 ## Download the data
 
 ```sh
-# download the data, then copy the date into ./kaggle_santander_product_recommendation/input
+# download the data, then copy the data into ./kaggle_santander_product_recommendation/input
 kaggle competitions download santander-product-recommendation
 ```
 
